@@ -10,10 +10,10 @@
 
 
         public:
-             // Constructor
+            // Constructor
             Blinker(int pin, unsigned long interval, unsigned long startVertraging = 0);     
             // ~Blinker()     // Destructor
 
-            int kweenie();
+            int update();
     };
 #endif
