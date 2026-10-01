@@ -10,7 +10,7 @@ Blinker::Blinker(int pin, unsigned long interval, unsigned long startVertraging)
     pinMode(_pin, OUTPUT);
 }  
 
-int Blinker::kweenie(void) {
+int Blinker::update(void) {
     unsigned long nu = millis();
     int retval = false;
 
